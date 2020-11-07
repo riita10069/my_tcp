@@ -1,0 +1,22 @@
+#define RATE9600	0x7
+#define RATE4800	0x6
+#define RATE2400	0x5
+#define RATE1200	0x4
+#define RATE600		0x3
+#define RATE300		0x2
+#define RATE150		0x1
+
+#define MODE	0xce
+
+#define COM_S	0x33
+#define COM_R	0x16
+#define END	0x50
+
+#define SOH	0x1
+#define STX	0x2
+#define ETX	0x3
+#define EOT	0x4
+#define ACK	0x6
+#define NAK	0x15
+
+#define TIME_OUT	0xffff
